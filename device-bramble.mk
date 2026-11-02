@@ -157,5 +157,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-3.9.1-vendorcompat
 
+# Device specific RROs
 PRODUCT_PACKAGES += \
-    NfcOverlayBramble
+    FrameworkResOverlayBramble \
+    NfcOverlayBramble \
+    SecureElementOverlayBramble \
+    SettingsOverlayBramble \
+    SystemUIOverlayBramble
