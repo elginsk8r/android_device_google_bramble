@@ -108,10 +108,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init.insmod.bramble.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/init.insmod.bramble.cfg
 
-# Recovery
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/init.recovery.device.rc:recovery/root/init.recovery.bramble.rc
-
 # Thermal HAL config
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/thermal_info_config_$(PRODUCT_HARDWARE).json:$(TARGET_COPY_OUT_VENDOR)/etc/thermal_info_config.json \
